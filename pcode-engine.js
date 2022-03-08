@@ -24,7 +24,6 @@ $(document).ready(function(){
             if (expCss.length > 2) {
                 let value = expCss[expCss.length - 1];
                 expCss.pop();
-                console.log(expCss);
                 let style = expCss.join("-");
                 $("."+index).css(style, value);
             }
